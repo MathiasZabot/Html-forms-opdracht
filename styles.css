@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 1.3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 80%;
+}
+
+.contact-form-header{
+  margin-left: 20px;
+  margin-bottom 20px;
+  width:80%;
+}
+
+.contact-form{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+input{
+  border-radius: 3px;
+  border:1px solid #cccccc;
+}
+
+.asterisk{
+  color: red;
+}
+
+.sub1 {
+  display: flex;
+  flex direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.form-row {
+  margin-left: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+}
